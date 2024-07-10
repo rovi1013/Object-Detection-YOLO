@@ -1,0 +1,47 @@
+# Environment
+/.venv/
+__pycache__
+.idea/
+
+
+# Folders and Files
+/annotations/
+/labelImg/
+/model_training/runs/
+*.ndjson
+*.cache
+
+
+# Folders which should be empty
+model_training/annotations/*
+!model_training/annotations/.gitkeep
+
+download_images/birds_dataset/*
+!download_images/birds_dataset/.gitkeep
+
+model_training/dataset/*
+!model_training/dataset/.gitkeep
+
+model_training/dataset/images/*
+!model_training/dataset/images/.gitkeep
+
+model_training/dataset/labels/*
+!model_training/dataset/labels/.gitkeep
+
+model_training/dataset/images/test/*
+!model_training/dataset/images/test/.gitkeep
+
+model_training/dataset/images/train/*
+!model_training/dataset/images/train/.gitkeep
+
+model_training/dataset/images/val/*
+!model_training/dataset/images/val/.gitkeep
+
+model_training/dataset/labels/test/*
+!model_training/dataset/labels/test/.gitkeep
+
+model_training/dataset/labels/train/*
+!model_training/dataset/labels/train/.gitkeep
+
+model_training/dataset/labels/val/*
+!model_training/dataset/labels/val/.gitkeep
